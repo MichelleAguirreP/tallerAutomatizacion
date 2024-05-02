@@ -1,0 +1,17 @@
+{
+  "name": "tallersavia",
+  "version": "1.0.0",
+  "description": "taller de automatizacion de proyectos",
+  "main": "index.js",
+  "scripts": {
+    
+    "tests1": "cypress open",
+    "tests2": ""
+   
+  },
+  "author": "Michelle Aguirre",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.5.0"
+  }
+}
