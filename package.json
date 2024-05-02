@@ -4,15 +4,14 @@
   "description": "taller de automatizacion de proyectos",
   "main": "index.js",
   "scripts": {
-    
     "tests1": "cypress open",
-    "tests2": ""
+    "tests2": "",
     "cypress:open": "cypress open",
     "cypress:runDefault": "cypress run --spec cypress/e2e/*tallerEjemplo1.cy.js",
     "cypress:chrome": "cypress run --browser chrome --spec cypress/e2e/*tallerEjemplo1.cy.js",
     "cypress:edge": "cypress run --browser edge --spec cypress/e2e/*tallerEjemplo1.cy.js",
-    "cypress:runChromeHeadless" "cypress run --headless --browser chrome --spec cypress/e2e/*tallerEjemplo1.cy.js",   
-  }
+    "cypress:runChromeHeadless": "cypress run --headless --browser chrome --spec cypress/e2e/*tallerEjemplo1.cy.js"
+  },
   "author": "Michelle Aguirre",
   "license": "ISC",
   "dependencies": {
