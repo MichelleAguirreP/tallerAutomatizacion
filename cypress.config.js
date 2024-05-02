@@ -6,4 +6,6 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  // Configuración del navegador
+  browser: "edge"
 });
