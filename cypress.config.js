@@ -7,7 +7,7 @@ module.exports = defineConfig({
     },
   },
   // Configuración del navegador
-  browser: "chrome",
+  browser: "edge",
 
   // Configuración de permisos y seguridad
   chromeWebSecurity: false, // Desactiva la seguridad web de Chrome (puede ser necesario para ciertos escenarios de prueba)
