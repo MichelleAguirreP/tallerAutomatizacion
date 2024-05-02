@@ -12,7 +12,7 @@
     "cypress:chrome": "cypress run --browser chrome --spec cypress/e2e/*tallerEjemplo1.cy.js",
     "cypress:edge": "cypress run --browser edge --spec cypress/e2e/*tallerEjemplo1.cy.js",
     "cypress:runChromeHeadless" "cypress run --headless --browser chrome --spec cypress/e2e/*tallerEjemplo1.cy.js",   
-  },
+  }
   "author": "Michelle Aguirre",
   "license": "ISC",
   "dependencies": {
