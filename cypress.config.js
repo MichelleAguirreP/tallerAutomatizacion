@@ -16,4 +16,7 @@ module.exports = defineConfig({
     CYPRESS_ALLOW_INSECURE_CONNECTIONS: true, // Permite conexiones inseguras
     CYPRESS_INTERNAL_FORCE_PORT: "63986", // Forzar el puerto interno para evitar problemas de conexión
   },
+
+  // Configuración del puerto CDP
+  chromeArgs: ["--remote-debugging-port=9222"], // Configuración del puerto CDP, puedes cambiar el número de puerto según sea necesario
 });
