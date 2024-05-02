@@ -14,9 +14,9 @@ module.exports = defineConfig({
   env: {
     // Configura variables de entorno para ajustar permisos
     CYPRESS_ALLOW_INSECURE_CONNECTIONS: true, // Permite conexiones inseguras
-    CYPRESS_INTERNAL_FORCE_PORT: "55885", // Forzar el puerto interno para evitar problemas de conexión
+    CYPRESS_CHROMIUM_EDGE_REMOTE_DEBUGGING_PORT: "61949", // Puerto CDP para Edge
   },
 
-  // Configuración del puerto CDP
-  chromeArgs: ["--remote-debugging-port=9222"], // Configuración del puerto CDP, puedes cambiar el número de puerto según sea necesario
+  // Configuración del puerto CDP para Edge
+  // chromeArgs: ["--remote-debugging-port=9222"], // Configuración del puerto CDP, puedes cambiar el número de puerto según sea necesario
 });
