@@ -14,7 +14,7 @@ module.exports = defineConfig({
   env: {
     // Configura variables de entorno para ajustar permisos
     CYPRESS_ALLOW_INSECURE_CONNECTIONS: true, // Permite conexiones inseguras
-    CYPRESS_INTERNAL_FORCE_PORT: "63986", // Forzar el puerto interno para evitar problemas de conexión
+    CYPRESS_INTERNAL_FORCE_PORT: "55885", // Forzar el puerto interno para evitar problemas de conexión
   },
 
   // Configuración del puerto CDP
