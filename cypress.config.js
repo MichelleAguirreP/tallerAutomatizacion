@@ -1,19 +1,20 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  e2e: {
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
-  },
-  // Configuración del navegador
+  baseUrl: "http://localhost:3000",
+  chromeWebSecurity: false,
+  defaultCommandTimeout: 10000,
+  execTimeout: 60000,
+  requestTimeout: 60000,
+  responseTimeout: 60000,
+  testFiles: "**/*.{js,jsx,ts,tsx}",
+  ignoreTestFiles: "**/*.skip.{js,jsx,ts,tsx}",
+  viewportWidth: 1920,
+  viewportHeight: 1080,
   browser: "edge",
-
-  // Configuración de permisos y seguridad
-  chromeWebSecurity: false, // Desactiva la seguridad web de Chrome (puede ser necesario para ciertos escenarios de prueba)
   env: {
-    // Configura variables de entorno para ajustar permisos
-    CYPRESS_ALLOW_INSECURE_CONNECTIONS: true, // Permite conexiones inseguras
-    CYPRESS_CHROMIUM_EDGE_REMOTE_DEBUGGING_PORT: "63114", // Puerto CDP para Edge
+    NODE_ENV: "development",
   },
+  chromeArgs: ["--disable-web-security", "--user-data-dir"],
+  edgeExecutable: "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
 });
