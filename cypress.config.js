@@ -16,6 +16,6 @@ module.exports = defineConfig({
     NODE_ENV: "development",
   },
   chromeArgs: ["--disable-web-security", "--user-data-dir"],
-  edgeExecutable: "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+  edgeExecutable: "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
   integrationFolder: "cypress/e2e" // Ruta a la carpeta donde se encuentran los archivos de prueba (e2e)
 });
