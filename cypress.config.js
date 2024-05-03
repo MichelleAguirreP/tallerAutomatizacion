@@ -17,4 +17,5 @@ module.exports = defineConfig({
   },
   chromeArgs: ["--disable-web-security", "--user-data-dir"],
   edgeExecutable: "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+  testingType: "e2e" // Define el tipo de prueba como "e2e"
 });
