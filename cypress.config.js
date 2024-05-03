@@ -7,8 +7,8 @@ module.exports = defineConfig({
   execTimeout: 60000,
   requestTimeout: 60000,
   responseTimeout: 60000,
-  testFiles: "**/*.{js,jsx,ts,tsx}",
-  ignoreTestFiles: "**/*.skip.{js,jsx,ts,tsx}",
+  testFiles: ["**/*.spec.js", "**/*.spec.ts", "**/*.spec.jsx", "**/*.spec.tsx"],
+  ignoreTestFiles: ["**/*.skip.{js,jsx,ts,tsx}"],
   viewportWidth: 1920,
   viewportHeight: 1080,
   browser: "edge",
@@ -18,7 +18,7 @@ module.exports = defineConfig({
   chromeArgs: ["--disable-web-security", "--user-data-dir"],
   edgeExecutable: "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
   // Especifica la carpeta de integración para las pruebas e2e
-  integrationFolder: "cypress/integration/e2e/tallerEjemplo1.cy.js" 
+  integrationFolder: "cypress/integration/e2e",
 });
 
 
