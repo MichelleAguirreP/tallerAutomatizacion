@@ -17,6 +17,8 @@ module.exports = defineConfig({
   },
   chromeArgs: ["--disable-web-security", "--user-data-dir"],
   edgeExecutable: "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
-  integrationFolder: false // Deshabilita la carpeta de integración (Cypress buscará en todas las carpetas)
+  // Especifica la carpeta de integración para las pruebas e2e
+  integrationFolder: "cypress/integration/e2e" 
 });
+
 
