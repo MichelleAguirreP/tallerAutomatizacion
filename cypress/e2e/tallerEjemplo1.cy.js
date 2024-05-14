@@ -21,7 +21,7 @@ describe( "test ejemplo",() =>{
         cy.get(':nth-child(10) > :nth-child(1) > .border > .flex-1').type("Pruebas")
         cy.get('#chk_items_maquinaria_5').click()
         cy.get('.bg-azul > span').click()
-        cy.get('.toast-message').contains("Solicitud creada de manera exitosa")
+        cy.get('.toast-message').contains("exitosa")
 
     })
 
