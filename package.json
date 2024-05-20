@@ -4,12 +4,12 @@
   "description": "taller de automatizacion de proyectos",
   "main": "index.js",
   "scripts": {
-    "tests1": "",
-    
+    "tests1": ""
+   
   },
   "author": "Michelle Aguirre",
   "license": "ISC",
-  "devDependencies": {
-    "cypress": "^13.8.1"
+  "dependencies": {
+    "cypress": "^13.7.2"
   }
 }
