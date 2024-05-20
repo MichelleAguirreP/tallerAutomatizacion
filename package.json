@@ -4,7 +4,7 @@
   "description": "taller de automatizacion de proyectos",
   "main": "index.js",
   "scripts": {
-    "tests1": "cypress run"
+    "cypress:runchrome":"cypress run"
    
   },
   "author": "Michelle Aguirre",
